@@ -37,7 +37,7 @@ public class EditorContact {
 						String firstName = Menu.getReader().readLine();
 						for (Contact c : ContactList.getList()) {
 							if (c.equals(Finder.getFoundContact())) {
-								c.setFirstName(firstName);
+							        c.setFirstName(firstName);
 							}
 						}
 						break;
@@ -74,7 +74,6 @@ public class EditorContact {
 						}
 						break;
 					}
-
 					case "0": {
 						flag = true;
 						break;
