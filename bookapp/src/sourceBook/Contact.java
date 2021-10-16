@@ -85,17 +85,17 @@ public class Contact implements Serializable {
 		Contact other = (Contact) obj;
 		if (firstName == null) {
 			if (other.firstName != null)
-				return false;
+			    return false;
 		} else if (!firstName.equals(other.firstName))
 			return false;
 		if (lastName == null) {
 			if (other.lastName != null)
-				return false;
+			    return false;
 		} else if (!lastName.equals(other.lastName))
 			return false;
 		if (phoneNumber == null) {
 			if (other.phoneNumber != null)
-				return false;
+			    return false;
 		} else if (!phoneNumber.equals(other.phoneNumber))
 			return false;
 		return true;
