@@ -30,6 +30,7 @@ public class Menu {
 
 	public void mainMenu() {
 		try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("bookList"))) {
+			
 			while (!flag) {
 				printMainMenu();
 
@@ -81,7 +82,7 @@ public class Menu {
 	 * @return the reader
 	 */
 	public static BufferedReader getReader() {
-		return reader;
+	    return reader;
 	}
 
 }
