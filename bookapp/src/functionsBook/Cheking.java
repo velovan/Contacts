@@ -33,11 +33,11 @@ public class Cheking {
 				if (!selections.equalsIgnoreCase("Y") && !selections.equalsIgnoreCase("N")) {
 					System.out.println("Invalid input try again");
 				}
-
 			}
 		} catch (IOException e) {
 			System.err.println();
 		}
+		
 		return chek;
 	}
 
