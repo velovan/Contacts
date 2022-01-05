@@ -32,7 +32,7 @@ public class ContactList {
 	 * @return the list
 	 */
 	public static LinkedList<Contact> getList() {
-		return list;
+	  return list;
 	}
 
 }
