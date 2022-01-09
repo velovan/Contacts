@@ -44,11 +44,9 @@ public class Creator {
 					}
 				}
 			}
-
 			System.out.println();
 			ContactList.getList().add(new Contact(firstName, lastName, phoneNumber));
 			System.out.println();
-
 		} catch (IOException e) {
 			System.err.println();
 		}
