@@ -9,9 +9,9 @@ public class DeleterContact {
 
 		for (Contact c : ContactList.getList()) {
 			if (c.equals(Finder.getFoundContact())) {
-				ContactList.getList().remove(c);
-				System.out.println("Contact deleted");
-				System.out.println();
+			   ContactList.getList().remove(c);
+			   System.out.println("Contact deleted");
+			   System.out.println();
 			}
 		}
 	}
