@@ -15,8 +15,8 @@ public class Editor {
     }
 
     public void editContact() {
+        
         printMenu();
-
         try {
             String selection = Menu.getReader().readLine();
             switch (selection) {
@@ -35,7 +35,7 @@ public class Editor {
                     System.out.println();
                     System.out.println("Incorrect input");
                     break;
-            }
+             }
         } catch (IOException e) {
             e.printStackTrace();
         }
