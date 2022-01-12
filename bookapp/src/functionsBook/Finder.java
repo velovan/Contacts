@@ -36,9 +36,9 @@ public class Finder {
 					System.out.println();
 					for (Contact c : ContactList.getList()) {
 						if (c.getFirstName().equals(firstName)) {
-							System.out.println(c);
-							foundContact = c;
-							System.out.println();
+						    System.out.println(c);
+						    foundContact = c;
+						    System.out.println();
 						}
 					}
 					if (foundContact != null) {
