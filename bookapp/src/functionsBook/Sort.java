@@ -82,7 +82,7 @@ public class Sort {
 
 	/**
 	 * @param flag
-	 *            the flag to set
+	 *     the flag to set
 	 */
 	public static void setFlag(boolean flag) {
 		Sort.flag = flag;
